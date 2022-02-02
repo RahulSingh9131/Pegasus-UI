@@ -2,7 +2,7 @@
 
 .alert{
     width: 100%;
-    padding: .7rem .7rem;
+    padding: .7rem;
     border-radius: 5px;
     color: #fff;
     font-weight: var(--font-medium);
