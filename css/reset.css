@@ -1,6 +1,4 @@
 
-@import url('./utilities.css');
-
 *,
 *::after,
 *::before{
@@ -25,8 +23,8 @@ body{
 
 a{
     text-decoration: none;
+    color: var(--text-color-light);
 }
-
 ul{
     list-style: none;
 }
