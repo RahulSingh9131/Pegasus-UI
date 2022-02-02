@@ -1,5 +1,5 @@
 
-@import url('./utilities.css');
+@import url('./variables.css');
 
 *,
 *::after,
@@ -25,8 +25,8 @@ body{
 
 a{
     text-decoration: none;
+    color: var(--text-color-light);
 }
-
 ul{
     list-style: none;
 }

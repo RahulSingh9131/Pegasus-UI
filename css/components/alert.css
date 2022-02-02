@@ -1,0 +1,59 @@
+/* === simple alert ==== */
+
+.alert{
+    width: 100%;
+    padding: .7rem .7rem;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1);
+    font-size: var(--small-font-size);
+}
+.primary-alert{
+    background-color: var(--primary);
+}
+.secondary-alert{
+    background-color: var(--secondary-dark);
+}
+.simple-alert{
+    background-color: var(--simple);
+}
+.danger-alert{
+    background-color: var(--danger);
+}
+.warning-alert{
+    background-color: var(--warning);
+}
+
+/* === border-alert=== */
+.border-alert{
+    width: 100%;
+    padding: .7rem .7rem;
+    border-width: 3px;
+    border-style: solid;
+    background-color: var(--body-color);
+    border-radius: 5px;
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1);
+    font-size: var(--small-font-size);
+}
+.border-primary-alert{
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.border-secondary-alert{
+    color: var(--secondary-dark);
+    border-color: var(--secondary-dark);
+}
+.border-simple-alert{
+    color: var(--simple);
+    border-color: var(--simple);
+}
+.border-danger-alert{
+    color: var(--danger);
+    border-color: var(--danger);
+}
+.border-warning-alert{
+    color: var(--warning);
+    border-color: var(--warning);
+}

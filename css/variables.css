@@ -17,6 +17,10 @@
     --secondary-darker: hsl(274, 75%, 22%);
 
     --accent:hsl(290, 80%, 20%);
+    --danger:hsl(0, 76%, 50%);
+    --simple:hsl(195, 60%, 66%);
+    --warning:hsl(60, 59%, 53%);
+
 
     --text-color-dark:hsl(0, 2%, 11%);
     --text-color:hsl(0, 0%, 20%);
