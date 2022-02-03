@@ -1,0 +1,89 @@
+/* === css for button component === */
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: .7rem 1.3rem;
+    font-family: inherit;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    border: none;
+    border-radius: 5px;
+    width: 9rem;
+    margin-bottom: var(--mb-0-5);
+    cursor: pointer;
+}
+
+/* == basic button css  ==*/
+
+.btn-primary{
+    background-color: var(--primary-dark);
+}
+.btn-secondary{
+    background-color: var(--secondary);
+}
+.btn-danger{
+    background-color: var(--danger);
+}
+.btn-warning{
+    background-color: var(--warning);
+}
+.btn-simple{
+    background-color: var(--simple);
+}
+.btn-link{
+    color: var(--primary-darker);
+    text-decoration: underline; 
+}
+
+/* == border button css == */
+
+.border-btn{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 7px;
+    background-color: #fff;
+}
+
+.border-btn-primary{
+    color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+.border-btn-secondary{
+    color: var(--secondary);
+    border-color: var(--secondary);
+}
+.border-btn-danger{
+    color: var(--danger);
+    border-color: var(--danger);
+}
+.border-btn-warning{
+    color: var(--warning);
+    border-color: var(--warning);
+}
+.border-btn-simple{
+    color: var(--simple);
+    border-color: var(--simple);
+}
+.border-btn-link{
+    color: var(--primary-darker);
+    text-decoration: underline;
+    border-color: var(--primary-darker);
+}
+
+/* == icon button css == */
+
+.btn-icon{
+    padding: 0 .3rem;
+}
+
+/* == floating action button css == */
+.fab{
+    height: 3.5rem;
+    padding: 0;
+    width: 3.5rem;
+    border-radius: 50%;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.7);
+}
