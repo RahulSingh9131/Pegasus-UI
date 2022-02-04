@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.4.0/styles/monokai-sublime.css" />
+    <title>Button</title>
+</head>
+<body>
+    <main>
+        <div class="docs-wrapper">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <img src="../../assets/brand-logo.svg" alt="Logo">
+                        <h3>Pegasus</h3>
+                    </div>
+                    <nav class="links">
+                        <ul>
+                           <li><a href="https://github.com/RahulSingh9131">Github</a></li>
+                           <li><a href="https://twitter.com/singhrahul3112">Twitter</a></li>
+                           <li><a href="#">Blog</a></li>
+                           <li><a href="#" class="btn">Docs</a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </header>
+            <div class="docs-area">
+                <div class="container">
+                    <div class="docs-container">
+                        <div class="left">
+                            <h3 class="left-heading">Get Started</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Introduction</a></li>
+                                <li><a href="#" class="docs-link">Typography</a></li>
+                                <li><a href="#" class="docs-link">Conclusion</a></li>
+                            </ul>
+                            <h3 class="left-heading">Components</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Alert</a></li>
+                                <li><a href="#" class="docs-link">Button</a></li>
+                                <li><a href="#" class="docs-link">Avatar</a></li>
+                                <li><a href="#" class="docs-link">Badge</a></li>
+                                <li><a href="#" class="docs-link">Card</a></li>
+                                <li><a href="#" class="docs-link">Input</a></li>
+                                <li><a href="#" class="docs-link">Image</a></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                           <h1 class="right-heading">Button</h1>
+                           <p class="left-text">
+                            Buttons allow users to take actions, and make choices, with a single tap.
+                            Buttons can be used inside modal window, forms , cards , toolbars & navbars.
+                           </p>
+                           <h2 class="right-sub-heading">Basic Button</h2>
+                           <p class="left-text">Basic buttons can be made using pre-defined button classes.
+                                It consists primary,secondary and link buttons.
+                            </p>
+                           <div class="component-container">
+                                <button class="docs-btn btn-primary">primary</button>
+                                <button class="docs-btn btn-secondary">Secondary</button>
+                                <button class="docs-btn btn-danger">danger</button>
+                                <button class="docs-btn btn-warning">warning</button>
+                                <button class="docs-btn btn-simple">simple</button>
+                                <button class="docs-btn btn-link" href="#">link</button>
+                           </div>
+                           <pre>
+                               <code class="code-snippet">
+                                &#x3C;!-- add these predefined button classes for the button component --&#x3E;
+
+                                &#x3C;button class=&#x22;btn-primary&#x22;&#x3E;primary&#x3C;/button&#x3E;
+
+                                &#x3C;button class=&#x22;btn-secondary&#x22;&#x3E;Secondary&#x3C;/button&#x3E;
+
+                                &#x3C;button class=&#x22;btn-danger&#x22;&#x3E;danger&#x3C;/button&#x3E;
+
+                                &#x3C;button class=&#x22;btn-warning&#x22;&#x3E;warning&#x3C;/button&#x3E;
+
+                                &#x3C;button class=&#x22;btn-simple&#x22;&#x3E;simple&#x3C;/button&#x3E;
+
+                                &#x3C;button class=&#x22;btn-link&#x22; href=&#x22;#&#x22;&#x3E;link&#x3C;/button&#x3E;
+                               </code>
+                           </pre>
+                           <h2 class="right-sub-heading">Border Buttons</h2>
+                           <p class="left-text">Border Buttons has solid borders around them and can be made using pre-defined button classes.</p>
+                           <div class="component-container">
+                               <button class="docs-btn border-btn border-btn-primary">primary</button>
+                               <button class="docs-btn border-btn border-btn-secondary">Secondary</button>
+                               <button class="docs-btn border-btn border-btn-danger">danger</button>
+                               <button class="docs-btn border-btn border-btn-warning">warning</button>
+                               <button class="docs-btn border-btn border-btn-simple">simple</button>
+                               <button class="docs-btn border-btn border-btn-link" href="#">link</button>
+                            </div>
+                            <pre>
+                                <code class="code-snippet">
+                                    &#x3C;!-- add particular classes to get the styling for border buttons --&#x3E;
+
+                                    &#x3C;button class=&#x22; border-btn border-btn-primary&#x22;&#x3E;primary&#x3C;/button&#x3E;
+
+                                    &#x3C;button class=&#x22; border-btn border-btn-secondary&#x22;&#x3E;Secondary&#x3C;/button&#x3E;
+
+                                    &#x3C;button class=&#x22; border-btn border-btn-danger&#x22;&#x3E;danger&#x3C;/button&#x3E;
+
+                                    &#x3C;button class=&#x22; border-btn border-btn-warning&#x22;&#x3E;warning&#x3C;/button&#x3E;
+
+                                    &#x3C;button class=&#x22; border-btn border-btn-simple&#x22;&#x3E;simple&#x3C;/button&#x3E;
+
+                                    &#x3C;button class=&#x22; border-btn border-btn-link&#x22; href=&#x22;#&#x22;&#x3E;link&#x3C;/button&#x3E;
+                                </code>
+                            </pre>
+                            <h2 class="right-sub-heading">Icon Buttons</h2>
+                            <p class="left-text">Icon button contains Icon inside in it & can be made using predefined css classes.</p>
+                            <div class="component-container">
+                                <button class="docs-btn border-btn border-btn-danger">
+                                    <i class="fas fa-trash-alt btn-icon"></i> delete
+                                </button>
+                                <button class="docs-btn btn-primary">
+                                    <i class="fas fa-paper-plane btn-icon"></i> send
+                                </button>
+                                <button class="docs-btn border-btn border-btn-secondary">
+                                    <i class="fas fa-cart-arrow-down btn-icon"></i> cart
+                                </button>
+                                <button class="docs-btn btn-simple">
+                                    <i class="fas fa-download btn-icon"></i> download
+                                </button>
+                            </div>
+                            <pre>
+                                <code class="code-snippet">
+                                    &#x3C;!-- add particular classes to get the styling for icon button --&#x3E;
+
+                                    &#x3C;button class=&#x22; border-btn border-btn-danger&#x22;&#x3E;
+                                        &#x3C;i class=&#x22;fas fa-trash-alt btn-icon&#x22;&#x3E;&#x3C;/i&#x3E; delete
+                                    &#x3C;/button&#x3E;
+
+                                    &#x3C;button class=&#x22;btn-primary&#x22;&#x3E;
+                                        &#x3C;i class=&#x22;fas fa-paper-plane btn-icon&#x22;&#x3E;&#x3C;/i&#x3E; send
+                                    &#x3C;/button&#x3E;
+
+                                    &#x3C;button class=&#x22; border-btn border-btn-secondary&#x22;&#x3E;
+                                        &#x3C;i class=&#x22;fas fa-cart-arrow-down btn-icon&#x22;&#x3E;&#x3C;/i&#x3E; cart
+                                    &#x3C;/button&#x3E;
+
+                                    &#x3C;button class=&#x22;btn-simple&#x22;&#x3E;
+                                        &#x3C;i class=&#x22;fas fa-download btn-icon&#x22;&#x3E;&#x3C;/i&#x3E; download
+                                    &#x3C;/button&#x3E;
+
+                                </code>
+                            </pre>
+                            <h2 class="right-sub-heading">Floating Action Buttons</h2>
+                            <p class="left-text">A floating action button (FAB) performs the primary, or most common, action on a screen.
+                                It appears in front of all screen content, typically as a circular shape with an icon in its center.
+                            </p>
+                            <div class="component-container">
+                                <button class="docs-btn fab btn-secondary">
+                                    <i class="fas fa-moon"></i>
+                                </button>
+                                <button class="docs-btn fab btn-danger">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <button class="docs-btn fab btn-simple">
+                                    <i class="fas fa-check"></i>
+                                </button>
+                                <button class="docs-btn fab btn-primary">
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                </button>
+                            </div>
+                            <pre>
+                                <code class="code-snippet">
+                                    &#x3C;!-- create FAB by adding perticular classes --&#x3E;
+
+                                    &#x3C;button class=&#x22;fab btn-secondary&#x22;&#x3E;
+                                        &#x3C;i class=&#x22;fas fa-moon&#x22;&#x3E;&#x3C;/i&#x3E;
+                                    &#x3C;/button&#x3E;
+
+                                    &#x3C;button class=&#x22;fab btn-danger&#x22;&#x3E;
+                                        &#x3C;i class=&#x22;fas fa-plus&#x22;&#x3E;&#x3C;/i&#x3E;
+                                    &#x3C;/button&#x3E;
+
+                                    &#x3C;button class=&#x22;fab btn-simple&#x22;&#x3E;
+                                        &#x3C;i class=&#x22;fas fa-check&#x22;&#x3E;&#x3C;/i&#x3E;
+                                    &#x3C;/button&#x3E;
+
+                                    &#x3C;button class=&#x22;fab btn-primary&#x22;&#x3E;
+                                        &#x3C;i class=&#x22;fas fa-cart-arrow-down&#x22;&#x3E;&#x3C;/i&#x3E;
+                                    &#x3C;/button&#x3E;
+                                </code>
+                            </pre>
+                            <footer class="docs-footer">
+                                <div class="footer-left">
+                                    <a href="../alert/alert.html" class="btn">
+                                        <i class="fas fa-chevron-left"></i>  Alert
+                                    </a>
+                                </div>
+                                <div class="footer-right">
+                                    <a href="../avatar/avatar.html" class="btn">
+                                      Avatar <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>
