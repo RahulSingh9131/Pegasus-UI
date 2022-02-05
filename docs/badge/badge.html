@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.4.0/styles/monokai-sublime.css" />
+    <title>Badge</title>
+</head>
+<body>
+    <main>
+        <div class="docs-wrapper">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <img src="../../assets/brand-logo.svg" alt="Logo">
+                        <h3>Pegasus</h3>
+                    </div>
+                    <nav class="links">
+                        <ul>
+                           <li><a href="https://github.com/RahulSingh9131">Github</a></li>
+                           <li><a href="https://twitter.com/singhrahul3112">Twitter</a></li>
+                           <li><a href="#">Blog</a></li>
+                           <li><a href="#" class="btn">Docs</a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </header>
+            <div class="docs-area">
+                <div class="container">
+                    <div class="docs-container">
+                        <div class="left">
+                            <h3 class="left-heading">Get Started</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Introduction</a></li>
+                                <li><a href="#" class="docs-link">Typography</a></li>
+                                <li><a href="#" class="docs-link">Conclusion</a></li>
+                            </ul>
+                            <h3 class="left-heading">Components</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Alert</a></li>
+                                <li><a href="#" class="docs-link">Button</a></li>
+                                <li><a href="#" class="docs-link">Avatar</a></li>
+                                <li><a href="#" class="docs-link">Badge</a></li>
+                                <li><a href="#" class="docs-link">Card</a></li>
+                                <li><a href="#" class="docs-link">Input</a></li>
+                                <li><a href="#" class="docs-link">Image</a></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                           <h1 class="right-heading">Badges</h1>
+                           <p class="left-text">
+                            Use the Badge Component Symbol to draw attention to another interface element or to display a notification.
+                             It enhances the component to which it is attached with additional information, disclosed to the user upon interacting with it.
+                           </p>
+                           <h2 class="right-sub-heading">Badge on Icons</h2>
+                           <p class="left-text">Below is the example of badge on icons. These can be used in e-commerce or social media websites.</p>
+                           <div class="component-container">
+                               <div class="badge-container">
+                                   <i class="fas fa-shopping-cart"></i>
+                                   <span class="badge">3</span>
+                               </div>
+                               <div class="badge-container">
+                                   <i class="fas fa-user"></i>
+                                   <span class="badge">7</span>
+                               </div>
+                               <div class="badge-container">
+                                   <i class="fas fa-envelope"></i>
+                                   <span class="badge">8</span>
+                               </div>
+                           </div>
+                           <pre>
+                               <code class="code-snippet">
+                                  &#x3C;!-- use these classes to add badge on icons --&#x3E;
+
+                                  &#x3C;div class=&#x22;badge-container&#x22;&#x3E;
+                                      &#x3C;i class=&#x22;fas fa-shopping-cart&#x22;&#x3E;&#x3C;/i&#x3E;
+                                      &#x3C;span class=&#x22;badge&#x22;&#x3E;3&#x3C;/span&#x3E;
+                                  &#x3C;/div&#x3E;
+
+                                  &#x3C;div class=&#x22;badge-container&#x22;&#x3E;
+                                      &#x3C;i class=&#x22;fas fa-user&#x22;&#x3E;&#x3C;/i&#x3E;
+                                      &#x3C;span class=&#x22;badge&#x22;&#x3E;7&#x3C;/span&#x3E;
+                                  &#x3C;/div&#x3E;
+
+                                  &#x3C;div class=&#x22;badge-container&#x22;&#x3E;
+                                      &#x3C;i class=&#x22;fas fa-envelope&#x22;&#x3E;&#x3C;/i&#x3E;
+                                      &#x3C;span class=&#x22;badge&#x22;&#x3E;8&#x3C;/span&#x3E;
+                                  &#x3C;/div&#x3E;
+                               </code>
+                           </pre>
+                           <h2 class="right-sub-heading">Badge on Avatars</h2>
+                           <p class="left-text">These are the examples of badges on avatars, can be made using particular classes.</p>
+                           <div class="component-container">
+                               <div class="badge-container">
+                                   <img class="profile-avatar" src="../../assets/avatar1.jpg" alt="avatar">
+                                   <div class="badge-online"></div>
+                               </div>
+                               <div class="badge-container">
+                                   <img class="profile-avatar" src="../../assets/avatar2.png" alt="avatar">
+                                   <div class="badge-offline"></div>
+                               </div>
+                            </div>
+                            <pre>
+                                <code class="code-snippet">
+                                    &#x3C;!-- use particular classes to make badge on avatar. --&#x3E;
+
+                                    &#x3C;div class=&#x22;badge-container&#x22;&#x3E;
+                                        &#x3C;img class=&#x22;profile-avatar&#x22; src=&#x22;../../assets/avatar1.jpg&#x22; alt=&#x22;avatar&#x22;&#x3E;
+                                        &#x3C;div class=&#x22;badge-online&#x22;&#x3E;&#x3C;/div&#x3E;
+                                    &#x3C;/div&#x3E;
+
+                                    &#x3C;div class=&#x22;badge-container&#x22;&#x3E;
+                                        &#x3C;img class=&#x22;profile-avatar&#x22; src=&#x22;../../assets/avatar2.png&#x22; alt=&#x22;avatar&#x22;&#x3E;
+                                        &#x3C;div class=&#x22;badge-offline&#x22;&#x3E;&#x3C;/div&#x3E;
+                                    &#x3C;/div&#x3E;
+                                </code>
+                            </pre>
+                            <h2 class="right-sub-heading">Badge on Button</h2>
+                            <p class="left-text">These are the example of badge on buttons.</p>
+                            <div class="component-container">
+                                <div class="badge-container">
+                                    <button class="docs-btn btn-danger" href="#">danger</button>
+                                    <span class="btn-badge">7</span>
+                                </div>
+                                <div class="badge-container">
+                                    <button class="docs-btn btn-simple" href="#">simple</button>
+                                    <span class="btn-badge">2</span>
+                                </div>
+                            </div>
+                            <pre>
+                                <code class="code-snippet">
+                                    &#x3C;!-- use these classes to make badge on buttons --&#x3E;
+
+                                    &#x3C;div class=&#x22;badge-container&#x22;&#x3E;
+                                        &#x3C;button class=&#x22;docs-btn btn-danger&#x22; href=&#x22;#&#x22;&#x3E;danger&#x3C;/button&#x3E;
+                                        &#x3C;span class=&#x22;btn-badge&#x22;&#x3E;7&#x3C;/span&#x3E;
+                                    &#x3C;/div&#x3E;
+
+                                    &#x3C;div class=&#x22;badge-container&#x22;&#x3E;
+                                        &#x3C;button class=&#x22;docs-btn btn-simple&#x22; href=&#x22;#&#x22;&#x3E;simple&#x3C;/button&#x3E;
+                                        &#x3C;span class=&#x22;btn-badge&#x22;&#x3E;2&#x3C;/span&#x3E;
+                                    &#x3C;/div&#x3E;
+                                </code>
+                            </pre>
+                            <footer class="docs-footer">
+                                <div class="footer-left">
+                                    <a href="../avatar/avatar.html" class="btn">
+                                        <i class="fas fa-chevron-left"></i>  Avatar
+                                    </a>
+                                </div>
+                                <div class="footer-right">
+                                    <a href="../card/card.html" class="btn">
+                                      card <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>

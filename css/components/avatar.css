@@ -1,0 +1,23 @@
+/* === css for avatar ==== */
+
+.profile-avatar{
+    height: 3.5rem;
+    padding: 0;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+.square-avatar{
+    border-radius: .3rem;
+}
+.avatar-sm{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.avatar-md{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.avatar-lg{
+    height: 4.5rem;
+    width: 4.5rem;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.4.0/styles/monokai-sublime.css" />
+    <title>Avatar</title>
+</head>
+<body>
+    <main>
+        <div class="docs-wrapper">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <img src="../../assets/brand-logo.svg" alt="Logo">
+                        <h3>Pegasus</h3>
+                    </div>
+                    <nav class="links">
+                        <ul>
+                           <li><a href="https://github.com/RahulSingh9131">Github</a></li>
+                           <li><a href="https://twitter.com/singhrahul3112">Twitter</a></li>
+                           <li><a href="#">Blog</a></li>
+                           <li><a href="#" class="btn">Docs</a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </header>
+            <div class="docs-area">
+                <div class="container">
+                    <div class="docs-container">
+                        <div class="left">
+                            <h3 class="left-heading">Get Started</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Introduction</a></li>
+                                <li><a href="#" class="docs-link">Typography</a></li>
+                                <li><a href="#" class="docs-link">Conclusion</a></li>
+                            </ul>
+                            <h3 class="left-heading">Components</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Alert</a></li>
+                                <li><a href="#" class="docs-link">Button</a></li>
+                                <li><a href="#" class="docs-link">Avatar</a></li>
+                                <li><a href="#" class="docs-link">Badge</a></li>
+                                <li><a href="#" class="docs-link">Card</a></li>
+                                <li><a href="#" class="docs-link">Input</a></li>
+                                <li><a href="#" class="docs-link">Image</a></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                           <h1 class="right-heading">Avatar</h1>
+                           <p class="left-text">
+                            The Avatar component is typically used to display images, icons,
+                            or initials representing people or other entities. 
+                           </p>
+                           <h2 class="right-sub-heading">Profile Avatar</h2>
+                           <p class="left-text">Profile avatar are basically circular in shape and can be made using pre-defined classes.</p>
+                           <div class="component-container">
+                                <div>
+                                    <img class="profile-avatar" src="../../assets/avatar1.jpg" alt="avatar">
+                                </div>
+                                <div>
+                                    <img class="profile-avatar" src="../../assets/avatar2.png" alt="avatar">
+                                </div>
+                                <div>
+                                    <img class="profile-avatar" src="../../assets/avatar3.png" alt="avatar">
+                                </div>
+                           </div>
+                           <pre>
+                               <code class="code-snippet">
+                                &#x3C;div&#x3E;
+                                   &#x3C;img class=&#x22;profile-avatar&#x22; src=&#x22;../../assets/avatar1.jpg&#x22; alt=&#x22;avatar&#x22;&#x3E;
+                                &#x3C;/div&#x3E;
+
+                                &#x3C;div&#x3E;
+                                   &#x3C;img class=&#x22;profile-avatar&#x22; src=&#x22;../../assets/avatar2.png&#x22; alt=&#x22;avatar&#x22;&#x3E;
+                                &#x3C;/div&#x3E;
+
+                                &#x3C;div&#x3E;
+                                   &#x3C;img class=&#x22;profile-avatar&#x22; src=&#x22;../../assets/avatar3.png&#x22; alt=&#x22;avatar&#x22;&#x3E;
+                                &#x3C;/div&#x3E;
+        
+                               </code>
+                           </pre>
+                           <h2 class="right-sub-heading">Different Size Avatar</h2>
+                           <p class="left-text">These avatars are of different sizes and can be made using appropriate classes.</p>
+                           <div class="component-container">
+                              <div>
+                                  <img class="profile-avatar avatar-sm" src="../../assets/avatar1.jpg" alt="avatar">
+                              </div>
+                              <div>
+                                  <img class="profile-avatar avatar-md" src="../../assets/avatar2.png" alt="avatar">
+                              </div>
+                              <div>
+                                  <img class="profile-avatar avatar-lg" src="../../assets/avatar3.png" alt="avatar">
+                              </div>
+                            </div>
+                            <pre>
+                                <code class="code-snippet">
+                                    &#x3C;!-- use the required class name to make these avatars. --&#x3E;
+
+                                    &#x3C;div&#x3E;
+                                        &#x3C;img class=&#x22;profile-avatar avatar-sm&#x22; src=&#x22;../../assets/avatar1.jpg&#x22; alt=&#x22;avatar&#x22;&#x3E;
+                                    &#x3C;/div&#x3E;
+
+                                    &#x3C;div&#x3E;
+                                        &#x3C;img class=&#x22;profile-avatar avatar-md&#x22; src=&#x22;../../assets/avatar2.png&#x22; alt=&#x22;avatar&#x22;&#x3E;
+                                    &#x3C;/div&#x3E;
+
+                                    &#x3C;div&#x3E;
+                                        &#x3C;img class=&#x22;profile-avatar avatar-lg&#x22; src=&#x22;../../assets/avatar3.png&#x22; alt=&#x22;avatar&#x22;&#x3E;
+                                    &#x3C;/div&#x3E;
+                                </code>
+                            </pre>
+                            <h2 class="right-sub-heading">Square Shape Avatar</h2>
+                            <p class="left-text">Below is examples of square shape avatars of different siizes, add particular classes to make them.</p>
+                            <div class="component-container">
+                                <div>
+                                    <img class="square-avatar avatar-sm" src="../../assets/avatar1.jpg" alt="avatar" >
+                                </div>
+                                <div>
+                                    <img class="square-avatar avatar-lg" src="../../assets/avatar4.jpg" alt="avatar">
+                                </div>
+                            </div>
+                            <pre>
+                                <code class="code-snippet">
+                                    &#x3C;!-- use these classes to make square shape avatar of different sizes --&#x3E;
+
+                                    &#x3C;div&#x3E;
+                                       &#x3C;img class=&#x22;square-avatar avatar-sm&#x22; src=&#x22;../../assets/avatar1.jpg&#x22; alt=&#x22;avatar&#x22; &#x3E;
+                                    &#x3C;/div&#x3E;
+
+                                    &#x3C;div&#x3E;
+                                       &#x3C;img class=&#x22;square-avatar avatar-lg&#x22; src=&#x22;../../assets/avatar4.jpg&#x22; alt=&#x22;avatar&#x22;&#x3E;
+                                    &#x3C;/div&#x3E;
+                                </code>
+                            </pre>
+                            <footer class="docs-footer">
+                                <div class="footer-left">
+                                    <a href="../button/button.html" class="btn">
+                                        <i class="fas fa-chevron-left"></i>  Button
+                                    </a>
+                                </div>
+                                <div class="footer-right">
+                                    <a href="../badge/badge.html" class="btn">
+                                      Badge <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>
