@@ -1,0 +1,124 @@
+/* === css for cards === */
+
+:root{
+    --white-color:#fff;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: .1rem solid rgb(128, 122, 122);
+    border-radius: .2rem;
+    padding: .7rem;
+    max-width: 23rem;
+    position: relative;
+}
+.card-top{
+    flex: 0.5;
+    width: 100%;
+}
+.card-body{
+    margin-bottom: var(--mb-0-75);
+}
+.body-text{
+    display: flex;
+    align-items: center;
+}
+.body-text>p{
+   margin: 0 .3rem;
+}
+.body-text>span{
+    color: var(--primary-dark);
+}
+.card-bottom{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    padding: .3rem;
+}
+.card-btn{
+    display: block;
+    background-color: var(--accent);
+    color: var(--white-color);
+    border-radius: .3rem;
+    border: none;
+    align-items: center;
+    font-size: var(--small-font-size);
+    padding: .5rem 0;
+    justify-content: center;
+    margin-bottom: var(--mb-0-5);
+    width: 100%;
+    cursor: pointer;
+}
+.text-overline{
+    font-size: var(--small-font-size);
+    text-decoration:line-through;
+}
+.card-img{
+    height: 18rem;
+    width: 100%;
+    display: inline-block;
+    object-fit: contain;
+}
+
+/* ==css for horizontal cards== */
+.card-horizontal{
+    display: flex;
+    flex-direction: row;
+    padding: .3rem;
+    max-width: 30rem;
+}
+.card-horizontal-btn{
+    margin-top: auto;
+}
+
+/* == css for badges with cards == */
+.card-badge{
+    position: absolute;
+    padding: .2rem;
+    background-color: var(--danger);
+    color: var(--white-color);
+    left: 0rem;
+    top: 2.3rem;
+}
+
+/* == css for card with dismiss ==*/
+
+.card-dismiss{
+    background-color: var(--primary);
+    color: var(--white-color);
+    border-radius: 50%;
+    font-size: var(--smaller-font-size);
+    padding: .7rem;
+    height: 1.3rem;
+    width: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 1.3rem;
+    top: 2.3rem;
+}
+
+/* == css for card with text-overlay */
+.card-text-overlay{
+    position: absolute;
+    top: 12.5rem;
+    left: 1.5rem;
+    color: var(--white-color);
+    font-weight: var(--font-semi-bold);
+}
+.card-text-overlay> h3{
+    color: var(--white-color);
+}
+
+/* == css for text only card == */
+.text-only-card{
+    max-width: 20rem;
+}
+
+/* ==css for shadow card */
+.shadow-card{
+    border: none;
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.9);
+}
