@@ -10,6 +10,7 @@
     border: .1rem solid rgb(128, 122, 122);
     border-radius: .2rem;
     padding: .7rem;
+    max-width: 23rem;
     position: relative;
 }
 .card-top{
@@ -78,7 +79,7 @@
     background-color: var(--danger);
     color: var(--white-color);
     left: 0rem;
-    top: 1.5rem;
+    top: 2.3rem;
 }
 
 /* == css for card with dismiss ==*/
@@ -95,8 +96,8 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 1rem;
-    top: 1.5rem;
+    right: 1.3rem;
+    top: 2.3rem;
 }
 
 /* == css for card with text-overlay */
