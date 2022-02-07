@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.4.0/styles/monokai-sublime.css" />
+    <title>Input</title>
+</head>
+<body>
+    <main>
+        <div class="docs-wrapper">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <img src="../../assets/brand-logo.svg" alt="Logo">
+                        <h3>Pegasus</h3>
+                    </div>
+                    <nav class="links">
+                        <ul>
+                           <li><a href="https://github.com/RahulSingh9131">Github</a></li>
+                           <li><a href="https://twitter.com/singhrahul3112">Twitter</a></li>
+                           <li><a href="#">Blog</a></li>
+                           <li><a href="#" class="btn">Docs</a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </header>
+            <div class="docs-area">
+                <div class="container">
+                    <div class="docs-container">
+                        <div class="left">
+                            <h3 class="left-heading">Get Started</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Introduction</a></li>
+                                <li><a href="#" class="docs-link">Typography</a></li>
+                                <li><a href="#" class="docs-link">Conclusion</a></li>
+                            </ul>
+                            <h3 class="left-heading">Components</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Alert</a></li>
+                                <li><a href="#" class="docs-link">Button</a></li>
+                                <li><a href="#" class="docs-link">Avatar</a></li>
+                                <li><a href="#" class="docs-link">Badge</a></li>
+                                <li><a href="#" class="docs-link">Card</a></li>
+                                <li><a href="#" class="docs-link">Input</a></li>
+                                <li><a href="#" class="docs-link">Image</a></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                           <h1 class="right-heading">Input</h1>
+                           <p class="left-text">
+                            The input component is used to create interactive controls
+                             for web-based forms in order to accept data from the user.
+                           </p>
+                           <h2 class="right-sub-heading">Label Input</h2>
+                           <p class="left-text"> Simple Input contain a label and a input field, where a user can interact with the provided input field.
+                            </p>
+                           <div class="component-container">
+                               <div class="input-container">
+                                   <label for="email">Email <small>*</small></label>
+                                   <input class="input" type="text" id="email" placeholder="enter your email">
+                                   <label for="password">Password <small>*</small></label>
+                                   <input class="input" type="password" id="password" placeholder="enter your password">
+                               </div>
+                           </div>
+                           <pre>
+                               <code class="code-snippet">
+                                  &#x3C;div class=&#x22;input-container&#x22;&#x3E;
+                                     &#x3C;label for=&#x22;email&#x22;&#x3E;Email &#x3C;small&#x3E;*&#x3C;/small&#x3E;&#x3C;/label&#x3E;
+                                     &#x3C;input class=&#x22;input&#x22; type=&#x22;text&#x22; id=&#x22;email&#x22; placeholder=&#x22;enter your email&#x22;&#x3E;
+                                     &#x3C;label for=&#x22;password&#x22;&#x3E;Password &#x3C;small&#x3E;*&#x3C;/small&#x3E;&#x3C;/label&#x3E;
+                                     &#x3C;input class=&#x22;input&#x22; type=&#x22;password&#x22; id=&#x22;password&#x22; placeholder=&#x22;enter your password&#x22;&#x3E;
+                                  &#x3C;/div&#x3E;
+                               </code>
+                           </pre>
+                           <h2 class="right-sub-heading">Inputs with error styling</h2>
+                           <p class="left-text">Inputs with error styling contain a error related message below the Input field .</p>
+                           <div class="component-container">
+                              <div class="input-container">
+                                <label for="email">Email <small>*</small></label>
+                                <input class="input error-input" type="text" id="email" placeholder="enter your email">
+                                <div class="error-msg">
+                                    <small>please enter a valid email</small>
+                                </div>
+                                <label for="password">Password <small>*</small></label>
+                                <input class="input error-input" type="password" id="password" placeholder="enter your password">
+                                <div class="error-msg">
+                                    <small>Wrong Password. Try Again.</small>
+                                </div>
+                             </div>
+                            </div>
+                            <pre>
+                                <code class="code-snippet">
+                                    &#x3C;div class=&#x22;input-container&#x22;&#x3E;
+                                       &#x3C;label for=&#x22;email&#x22;&#x3E;Email &#x3C;small&#x3E;*&#x3C;/small&#x3E;&#x3C;/label&#x3E;
+                                       &#x3C;input class=&#x22;input error-input&#x22; type=&#x22;text&#x22; id=&#x22;email&#x22; placeholder=&#x22;enter your email&#x22;&#x3E;
+                                       &#x3C;div class=&#x22;error-msg&#x22;&#x3E;
+                                           &#x3C;small&#x3E;please enter a valid email&#x3C;/small&#x3E;
+                                       &#x3C;/div&#x3E;
+                                       &#x3C;label for=&#x22;password&#x22;&#x3E;Password &#x3C;small&#x3E;*&#x3C;/small&#x3E;&#x3C;/label&#x3E;
+                                       &#x3C;input class=&#x22;input error-input&#x22; type=&#x22;password&#x22; id=&#x22;password&#x22; placeholder=&#x22;enter your password&#x22;&#x3E;
+                                       &#x3C;div class=&#x22;error-msg&#x22;&#x3E;
+                                           &#x3C;small&#x3E;Wrong Password. Try Again.&#x3C;/small&#x3E;
+                                       &#x3C;/div&#x3E;
+                                    &#x3C;/div&#x3E;
+                                </code>
+                            </pre>
+                            <h2 class="right-sub-heading">Text Box</h2>
+                            <p class="left-text">Below is the example of a simple textbox.</p>
+                            <div class="component-container">
+                                <textarea name="textbox" class="text-box" cols="30" rows="10" placeholder="I am a Text-box"></textarea>
+                            </div>
+                            <pre>
+                                <code class="code-snippet">
+                &#x3C;textarea name=&#x22;textbox&#x22; class=&#x22;text-box&#x22; cols=&#x22;30&#x22; rows=&#x22;10&#x22; placeholder=&#x22;I am a Text-box&#x22;&#x3E;&#x3C;/textarea&#x3E;
+                                </code>
+                            </pre>
+                            <footer class="docs-footer">
+                                <div class="footer-left">
+                                    <a href="../card/card.html" class="btn">
+                                        <i class="fas fa-chevron-left"></i>  Card
+                                    </a>
+                                </div>
+                                <div class="footer-right">
+                                    <a href="../image/image.html" class="btn">
+                                      Image <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>
