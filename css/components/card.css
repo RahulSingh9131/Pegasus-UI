@@ -1,5 +1,9 @@
 /* === css for cards === */
 
+:root{
+    --white-color:#fff;
+}
+
 .card{
     display: flex;
     flex-direction: column;
@@ -33,9 +37,8 @@
 }
 .card-btn{
     display: block;
-    /* display: flex; */
     background-color: var(--accent);
-    color: #fff;
+    color: var(--white-color);
     border-radius: .3rem;
     border: none;
     align-items: center;
@@ -73,7 +76,7 @@
     position: absolute;
     padding: .2rem;
     background-color: var(--danger);
-    color: #fff;
+    color: var(--white-color);
     left: 0rem;
     top: 1.5rem;
 }
@@ -82,7 +85,7 @@
 
 .card-dismiss{
     background-color: var(--primary);
-    color: #fff;
+    color: var(--white-color);
     border-radius: 50%;
     font-size: var(--smaller-font-size);
     padding: .7rem;
@@ -101,11 +104,11 @@
     position: absolute;
     top: 12.5rem;
     left: 1.5rem;
-    color: #fff;
+    color: var(--white-color);
     font-weight: var(--font-semi-bold);
 }
 .card-text-overlay> h3{
-    color: #fff;
+    color: var(--white-color);
 }
 
 /* == css for text only card == */
