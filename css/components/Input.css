@@ -1,0 +1,36 @@
+/* === css for inputs === */
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    width: 100%;
+    padding: 0rem .5rem;
+}
+label{
+    margin-top: var(--mb-0-25);
+}
+label> small{
+    color: var(--danger);
+}
+.input{
+    margin-top: var(--mb-0-5);
+    padding: .5rem .1rem;
+    outline: none;
+}
+
+/* == css for input with error ==*/
+.error-input{
+    margin-top: var(--mb-0-5);
+    border: .1rem solid var(--danger);
+}
+.error-msg{
+    color: var(--danger);
+}
+
+/* == css for text-box == */
+.text-box{
+    width: 100%;
+    max-width: 20rem;
+    padding: .5rem .2rem;
+}
