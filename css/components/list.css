@@ -1,0 +1,63 @@
+/* === css for List === */
+
+/* === css for normal list === */
+.list{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+    padding: .9rem  1.2rem;
+}
+.list-text{
+    font-size: var(--h3-font-size);
+    border-bottom: .1rem solid var(--text-color-light);
+    margin-bottom: var(--mb-1);
+    color: var(--primary);
+}
+.list-item{
+    color: var(--text-color);
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+.list-item:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    color: var(--primary);
+}
+
+/* === css for page list === */
+.page-list{
+    display: flex;
+    align-items: center;
+    padding: .5rem .7rem;
+    margin-bottom: var(--mb-0-5);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: .5rem;
+}
+.page-list:hover{
+    cursor: pointer;
+}
+.page-list h3{
+    color: var(--text-color-dark);
+    font-size: var(--h3-font-size) ;
+}
+.page-list p{
+    color: var(--text-color-light);
+    font-size: var(--normal-font-size);
+}
+.page-list i{
+    margin: 0rem 1rem;
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 50%;
+}
+.icon-primary{
+    background-color: var(--primary);
+}
+.icon-danger{
+    background-color: var(--danger);
+}
+.icon-success{
+    background-color: var(--simple);
+}

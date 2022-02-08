@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.4.0/styles/monokai-sublime.css" />
+    <title>Lists</title>
+</head>
+<body>
+    <main>
+        <div class="docs-wrapper">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <img src="../../assets/brand-logo.svg" alt="Logo">
+                        <h3>Pegasus</h3>
+                    </div>
+                    <div class="links">
+                        <ul>
+                           <li><a href="https://github.com/RahulSingh9131">Github</a></li>
+                           <li><a href="https://twitter.com/singhrahul3112">Twitter</a></li>
+                           <li><a href="#">Blog</a></li>
+                           <li><a href="#" class="btn">Docs</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </header>
+            <div class="docs-area">
+                <div class="container">
+                    <div class="docs-container">
+                        <div class="left">
+                            <h3 class="left-heading">Get Started</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Introduction</a></li>
+                                <li><a href="#" class="docs-link">Typography</a></li>
+                                <li><a href="#" class="docs-link">Conclusion</a></li>
+                            </ul>
+                            <h3 class="left-heading">Components</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Alert</a></li>
+                                <li><a href="#" class="docs-link">Button</a></li>
+                                <li><a href="#" class="docs-link">Avatar</a></li>
+                                <li><a href="#" class="docs-link">Badge</a></li>
+                                <li><a href="#" class="docs-link">Card</a></li>
+                                <li><a href="#" class="docs-link">Input</a></li>
+                                <li><a href="#" class="docs-link">Image</a></li>
+                                <li><a href="#" class="docs-link">Text-Utilities</a></li>
+                                <li><a href="#" class="docs-link">Lists</a></li>
+                                <li><a href="#" class="docs-link">Navigation</a></li>
+                                <li><a href="#" class="docs-link">Modal</a></li>
+                                <li><a href="#" class="docs-link">Rating</a></li>
+                                <li><a href="#" class="docs-link">Snackbar</a></li>
+                                <li><a href="#" class="docs-link">Simplified Grid</a></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                           <h1 class="right-heading">List</h1>
+                           <p class="left-text">
+                              A list is used to showcase the user the number items available. Also it allows us to display a list of pages or links.
+                           </p>
+
+                           <!-- Normal List -->
+                           <h2 class="right-sub-heading">Normal List</h2>
+                           <p class="left-text">
+                               normal list can contain links, items & icons in it.
+                           </p>
+                           <div class="component-container">
+                                    <ul class="list">
+                                        <h3 class="list-text">Components list</h3>
+                                        <li class="list-item">Alert</li>
+                                        <li class="list-item">Button</li>
+                                        <li class="list-item">Badges</li>
+                                        <li class="list-item">Cards</li>
+                                        <li class="list-item">Image</li>
+                                        <li class="list-item">Text-utilities</li>
+                                        <li class="list-item">Avatar</li>
+                                    </ul>
+                           </div>
+                           <pre>
+                               <code class="code-snippet">
+                            &#x3C;ul class=&#x22;list&#x22;&#x3E;
+                                &#x3C;h3 class=&#x22;list-text&#x22;&#x3E;Components list&#x3C;/h3&#x3E;
+                                &#x3C;li class=&#x22;list-item&#x22;&#x3E;Alert&#x3C;/li&#x3E;
+                                &#x3C;li class=&#x22;list-item&#x22;&#x3E;Button&#x3C;/li&#x3E;
+                                &#x3C;li class=&#x22;list-item&#x22;&#x3E;Badges&#x3C;/li&#x3E;
+                                &#x3C;li class=&#x22;list-item&#x22;&#x3E;Cards&#x3C;/li&#x3E;
+                                &#x3C;li class=&#x22;list-item&#x22;&#x3E;Image&#x3C;/li&#x3E;
+                                &#x3C;li class=&#x22;list-item&#x22;&#x3E;Text-utilities&#x3C;/li&#x3E;
+                                &#x3C;li class=&#x22;list-item&#x22;&#x3E;Avatar&#x3C;/li&#x3E;
+                            &#x3C;/ul&#x3E;
+                               </code>
+                           </pre>
+
+                           <!-- Notification Page List -->
+                           <h2 class="right-sub-heading">Notification Page List</h2>
+                           <p class="left-text">Below is an example of list which we can use in notifiaction page.</p>
+                           <div class="component-container">
+                                <ul>
+                                    <li class="page-list">
+                                        <div class="left">
+                                            <i class="fas fa-info icon-primary"></i>
+                                        </div>
+                                        <div class="right">
+                                            <h3>Did You Know?</h3>
+                                            <p>here is something that you might like to know</p>
+                                        </div>
+                                    </li>
+                                    <li class="page-list">
+                                        <div class="left">
+                                            <i class="fas fa-exclamation icon-danger"></i>
+                                        </div>
+                                        <div class="right">
+                                            <h3>Uh oh, something went wrong</h3>
+                                            <p>sorry! There was a problem with your request.</p>
+                                        </div>
+                                    </li>
+                                    <li class="page-list">
+                                        <div class="left">
+                                            <i class="fas fa-check icon-success"></i>
+                                        </div>
+                                        <div class="right">
+                                            <h3>Yay! Everything worked</h3>
+                                            <p>congrats on successful request.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <pre>
+                                <code class="code-snippet">
+                                &#x3C;ul&#x3E;
+                                    &#x3C;li class=&#x22;page-list&#x22;&#x3E;
+                                        &#x3C;div class=&#x22;left&#x22;&#x3E;
+                                            &#x3C;i class=&#x22;fas fa-info icon-primary&#x22;&#x3E;&#x3C;/i&#x3E;
+                                        &#x3C;/div&#x3E;
+                                        &#x3C;div class=&#x22;right&#x22;&#x3E;
+                                            &#x3C;h3&#x3E;Did You Know?&#x3C;/h3&#x3E;
+                                            &#x3C;p&#x3E;here is something that you might like to know&#x3C;/p&#x3E;
+                                        &#x3C;/div&#x3E;
+                                    &#x3C;/li&#x3E;
+                                    &#x3C;li class=&#x22;page-list&#x22;&#x3E;
+                                        &#x3C;div class=&#x22;left&#x22;&#x3E;
+                                            &#x3C;i class=&#x22;fas fa-exclamation icon-danger&#x22;&#x3E;&#x3C;/i&#x3E;
+                                        &#x3C;/div&#x3E;
+                                        &#x3C;div class=&#x22;right&#x22;&#x3E;
+                                            &#x3C;h3&#x3E;Uh oh, something went wrong&#x3C;/h3&#x3E;
+                                            &#x3C;p&#x3E;sorry! There was a problem with your request.&#x3C;/p&#x3E;
+                                        &#x3C;/div&#x3E;
+                                    &#x3C;/li&#x3E;
+                                    &#x3C;li class=&#x22;page-list&#x22;&#x3E;
+                                        &#x3C;div class=&#x22;left&#x22;&#x3E;
+                                            &#x3C;i class=&#x22;fas fa-check icon-success&#x22;&#x3E;&#x3C;/i&#x3E;
+                                        &#x3C;/div&#x3E;
+                                        &#x3C;div class=&#x22;right&#x22;&#x3E;
+                                            &#x3C;h3&#x3E;Yay! Everything worked&#x3C;/h3&#x3E;
+                                            &#x3C;p&#x3E;congrats on successful request.&#x3C;/p&#x3E;
+                                        &#x3C;/div&#x3E;
+                                    &#x3C;/li&#x3E;
+                                &#x3C;/ul&#x3E;
+                                </code>
+                            </pre>
+                            <div class="docs-footer">
+                                <div class="footer-left">
+                                    <a href="../Text-Utilities/text.html" class="btn">
+                                        <i class="fas fa-chevron-left"></i> Text Utilities
+                                    </a>
+                                </div>
+                                <div class="footer-right">
+                                    <a href="../navigation/navigation.html" class="btn">
+                                      Navigation <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>
