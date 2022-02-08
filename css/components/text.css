@@ -1,0 +1,35 @@
+/* === css for Text-Utilities */
+
+
+
+/* === css for Heading === */
+.h1-heading{
+    font-size: var(--h1-font-size);
+}
+.h2-heading{
+    font-size: var(--h2-font-size);
+}
+.h3-heading{
+    font-size: var(--h3-font-size);
+}
+
+/* === css for small-text variant ===*/
+.normal-text{
+    font-size: var(--normal-font-size);
+}
+.small-text{
+    font-size: var(--small-font-size);
+}
+.smaller-text{
+    font-size: var(--smaller-font-size);
+}
+
+/* === css for gray text */
+.gray-text{
+    color: var(--text-color-light) ;
+}
+
+/* === css for center text === */
+.center-text{
+    text-align: center;
+}
