@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.4.0/styles/monokai-sublime.css" />
+    <title>Navigation</title>
+</head>
+<body>
+    <main>
+        <div class="docs-wrapper">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <img src="../../assets/brand-logo.svg" alt="Logo">
+                        <h3>Pegasus</h3>
+                    </div>
+                    <nav class="links">
+                        <ul>
+                           <li><a href="https://github.com/RahulSingh9131">Github</a></li>
+                           <li><a href="https://twitter.com/singhrahul3112">Twitter</a></li>
+                           <li><a href="#">Blog</a></li>
+                           <li><a href="#" class="btn">Docs</a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </header>
+            <div class="docs-area">
+                <div class="container">
+                    <div class="docs-container">
+                        <div class="left">
+                            <h3 class="left-heading">Get Started</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Introduction</a></li>
+                                <li><a href="#" class="docs-link">Typography</a></li>
+                                <li><a href="#" class="docs-link">Conclusion</a></li>
+                            </ul>
+                            <h3 class="left-heading">Components</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Alert</a></li>
+                                <li><a href="#" class="docs-link">Button</a></li>
+                                <li><a href="#" class="docs-link">Avatar</a></li>
+                                <li><a href="#" class="docs-link">Badge</a></li>
+                                <li><a href="#" class="docs-link">Card</a></li>
+                                <li><a href="#" class="docs-link">Input</a></li>
+                                <li><a href="#" class="docs-link">Image</a></li>
+                                <li><a href="#" class="docs-link">Text-Utilities</a></li>
+                                <li><a href="#" class="docs-link">Lists</a></li>
+                                <li><a href="#" class="docs-link">Navigation</a></li>
+                                <li><a href="#" class="docs-link">Modal</a></li>
+                                <li><a href="#" class="docs-link">Rating</a></li>
+                                <li><a href="#" class="docs-link">Snackbar</a></li>
+                                <li><a href="#" class="docs-link">Simplified Grid</a></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                           <h1 class="right-heading">Navigation</h1>
+                           <p class="left-text">
+                              Navigation component helps you implement navigation, from simple button clicks to more complex patterns,
+                              such as app bars and the navigation drawer. The Navigation component also ensures a consistent and predictable
+                              user experience by adhering to an established set of principles.
+                           </p>
+
+                           <!-- navigation for e-commerce website -->
+                           <h2 class="right-sub-heading">Navigation for e-commerce</h2>
+                           <p class="left-text">
+                               Below is an example of a navigation bar which a user can use while making a e-commerce website.
+                           </p>
+                           <div class="component-container">
+                               <div class="navigation-container">
+                                   <div class="left">
+                                       <h5>e-commerce</h5>
+                                   </div>
+                                   <div class="middle">
+                                       <input type="search" placeholder="search here.." id="search-input">
+                                       <label for="search-input" class="fas fa-search"></label>
+                                   </div>
+                                   <div class="right">
+                                       <nav class="nav-links">
+                                           <a href="#" class="fas fa-user"></a>
+                                           <a href="#" class="fa fa-shopping-cart"></a>
+                                           <a href="#" class="fas fa-heart"></a>
+                                       </nav>
+                                   </div>
+                               </div>
+                           </div>
+                           <pre>
+                               <code class="code-snippet">
+                            &#x3C;div class=&#x22;navigation-container&#x22;&#x3E;
+                                &#x3C;div class=&#x22;left&#x22;&#x3E;
+                                    &#x3C;h5&#x3E;e-commerce&#x3C;/h5&#x3E;
+                                &#x3C;/div&#x3E;
+                                &#x3C;div class=&#x22;middle&#x22;&#x3E;
+                                    &#x3C;input type=&#x22;search&#x22; placeholder=&#x22;search here..&#x22; id=&#x22;search-input&#x22;&#x3E;
+                                    &#x3C;label for=&#x22;search-input&#x22; class=&#x22;fas fa-search&#x22;&#x3E;&#x3C;/label&#x3E;
+                                &#x3C;/div&#x3E;
+                                &#x3C;div class=&#x22;right&#x22;&#x3E;
+                                    &#x3C;nav class=&#x22;nav-links&#x22;&#x3E;
+                                        &#x3C;a href=&#x22;#&#x22; class=&#x22;fas fa-user&#x22;&#x3E;&#x3C;/a&#x3E;
+                                        &#x3C;a href=&#x22;#&#x22; class=&#x22;fa fa-shopping-cart&#x22;&#x3E;&#x3C;/a&#x3E;
+                                        &#x3C;a href=&#x22;#&#x22; class=&#x22;fas fa-heart&#x22;&#x3E;&#x3C;/a&#x3E;
+                                    &#x3C;/nav&#x3E;
+                                &#x3C;/div&#x3E;
+                            &#x3C;/div&#x3E;
+                               </code>
+                           </pre>
+
+                           <!-- navigation for landing page. -->
+                           <h2 class="right-sub-heading">Navigation for landing page.</h2>
+                           <p class="left-text">Below is an example of a navigation bar, which can be used while making a landing page.</p>
+                           <div class="component-container">
+                                <div class="navigation-container">
+                                    <div class="left">
+                                        <h5>Pegasus</h5>
+                                    </div>
+                                    <div class="right">
+                                        <nav class="nav-links landing-page-links">
+                                            <a href="#" class="">Github</a>
+                                            <a href="#" class="">Twitter</a>
+                                            <a href="#" class="">LinkedIn</a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <pre>
+                                <code class="code-snippet">
+                                &#x3C;div class=&#x22;navigation-container&#x22;&#x3E;
+                                    &#x3C;div class=&#x22;left&#x22;&#x3E;
+                                        &#x3C;h5&#x3E;Pegasus&#x3C;/h5&#x3E;
+                                    &#x3C;/div&#x3E;
+                                    &#x3C;div class=&#x22;right&#x22;&#x3E;
+                                        &#x3C;nav class=&#x22;nav-links landing-page-links&#x22;&#x3E;
+                                            &#x3C;a href=&#x22;#&#x22; class=&#x22;&#x22;&#x3E;Github&#x3C;/a&#x3E;
+                                            &#x3C;a href=&#x22;#&#x22; class=&#x22;&#x22;&#x3E;Twitter&#x3C;/a&#x3E;
+                                            &#x3C;a href=&#x22;#&#x22; class=&#x22;&#x22;&#x3E;LinkedIn&#x3C;/a&#x3E;
+                                        &#x3C;/nav&#x3E;
+                                    &#x3C;/div&#x3E;
+                                &#x3C;/div&#x3E;
+                                </code>
+                            </pre>
+                            <footer class="docs-footer">
+                                <div class="footer-left">
+                                    <a href="../list/list.html" class="btn">
+                                        <i class="fas fa-chevron-left"></i>  lists
+                                    </a>
+                                </div>
+                                <div class="footer-right">
+                                    <a href="../modal/modal.html" class="btn">
+                                      modal <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/* === css for navigation ==== */
+
+.navigation-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 1.5rem .7rem;
+    justify-content: space-between;
+    background-color: #333;
+}
+.left h5{
+    font-size: var(--normal-font-size);
+    color: #fff;
+}
+.middle{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.middle input{
+    padding: .5rem;
+    width: 15rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+}
+.middle label{
+    position: absolute;
+    right: .5rem;
+    top: .3rem;
+}
+.nav-links > a{
+   color: #fff;
+   margin: 0rem var(--mb-0-5);
+}
+
+/* media Queries for navigartion.css */
+
+@media (max-width: 870px){
+    .navigation-container{
+        padding: 1rem .3rem;
+    }
+    .left h5{
+        font-size: var(--small-font-size);
+    }
+    .middle input{
+        width: 8rem;
+    }
+    .nav-links > a{
+        display: inline-block;
+        margin: 0rem var(--mb-0-25);
+    }
+    .landing-page-links{
+        font-size: var(--small-font-size);
+    }
+}
