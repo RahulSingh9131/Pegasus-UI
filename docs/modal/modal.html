@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.4.0/styles/monokai-sublime.css" />
+    <title>Modal</title>
+</head>
+<body>
+    <main>
+        <div class="docs-wrapper">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <img src="../../assets/brand-logo.svg" alt="Logo">
+                        <h3>Pegasus</h3>
+                    </div>
+                    <nav class="links">
+                        <ul>
+                           <li><a href="https://github.com/RahulSingh9131" target="blank">Github</a></li>
+                           <li><a href="https://twitter.com/singhrahul3112" target="blank">Twitter</a></li>
+                           <li><a href="#" target="blank">Blog</a></li>
+                           <li><a href="#" class="btn" target="blank">Docs</a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </header>
+            <div class="docs-area">
+                <div class="container">
+                    <div class="docs-container">
+                        <div class="left">
+                            <h3 class="left-heading">Get Started</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Introduction</a></li>
+                                <li><a href="#" class="docs-link">Typography</a></li>
+                                <li><a href="#" class="docs-link">Conclusion</a></li>
+                            </ul>
+                            <h3 class="left-heading">Components</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Alert</a></li>
+                                <li><a href="#" class="docs-link">Button</a></li>
+                                <li><a href="#" class="docs-link">Avatar</a></li>
+                                <li><a href="#" class="docs-link">Badge</a></li>
+                                <li><a href="#" class="docs-link">Card</a></li>
+                                <li><a href="#" class="docs-link">Input</a></li>
+                                <li><a href="#" class="docs-link">Image</a></li>
+                                <li><a href="#" class="docs-link">Text-Utilities</a></li>
+                                <li><a href="#" class="docs-link">Lists</a></li>
+                                <li><a href="#" class="docs-link">Navigation</a></li>
+                                <li><a href="#" class="docs-link">Modal</a></li>
+                                <li><a href="#" class="docs-link">Rating</a></li>
+                                <li><a href="#" class="docs-link">Snackbar</a></li>
+                                <li><a href="#" class="docs-link">Simplified Grid</a></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                           <h1 class="right-heading">Modal</h1>
+                           <p class="left-text">
+                               The modal is composed of three distinct zones: A header, the body, and a footer.
+                               The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else 
+                           </p>
+                           <h2 class="right-sub-heading">Basic Modal</h2>
+                           <p class="left-text">
+                               Below is an example of basic modal. It can be created by adding the particular classes.
+                           </p>
+                           <div class="component-container">
+                               <div class="modal">
+                                   <div class="modal-head">
+                                       <h3>Modal Header</h3>
+                                   </div>
+                                   <div class="modal-body">
+                                       <p>Modal text here</p>
+                                   </div>
+                                   <div class="modal-bottom">
+                                       <button class="modal-btn">ACTION 1</button>
+                                       <button class="modal-btn">ACTION 2</button>
+                                   </div>
+                               </div>
+                           </div>
+                           <pre>
+                               <code class="code-snippet">
+                            &#x3C;div class=&#x22;modal&#x22;&#x3E;
+                                &#x3C;div class=&#x22;modal-head&#x22;&#x3E;
+                                    &#x3C;h3&#x3E;Modal Header&#x3C;/h3&#x3E;
+                                &#x3C;/div&#x3E;
+                                &#x3C;div class=&#x22;modal-body&#x22;&#x3E;
+                                    &#x3C;p&#x3E;Modal text here&#x3C;/p&#x3E;
+                                &#x3C;/div&#x3E;
+                                &#x3C;div class=&#x22;modal-bottom&#x22;&#x3E;
+                                    &#x3C;button class=&#x22;modal-btn&#x22;&#x3E;ACTION 1&#x3C;/button&#x3E;
+                                    &#x3C;button class=&#x22;modal-btn&#x22;&#x3E;ACTION 2&#x3C;/button&#x3E;
+                                &#x3C;/div&#x3E;
+                            &#x3C;/div&#x3E;
+                               </code>
+                           </pre>
+                           <h2 class="right-sub-heading">Modal With stacked Button</h2>
+                           <p class="left-text">Below is an example of modal with a stacked button.</p>
+                           <div class="component-container">
+                               <div class="modal">
+                                   <div class="modal-head">
+                                       <h3>Modal Header</h3>
+                                   </div>
+                                   <div class="modal-body">
+                                       <p>modal text here...</p>
+                                   </div>
+                                   <div class="modal-stacked-bottom">
+                                       <button class="modal-btn">ACTION 1</button>
+                                       <button class="modal-btn">ACTION 2</button>
+                                   </div>
+                               </div>
+                            </div>
+                            <pre>
+                                <code class="code-snippet">
+                                &#x3C;div class=&#x22;modal&#x22;&#x3E;
+                                    &#x3C;div class=&#x22;modal-head&#x22;&#x3E;
+                                        &#x3C;h3&#x3E;Modal Header&#x3C;/h3&#x3E;
+                                    &#x3C;/div&#x3E;
+                                    &#x3C;div class=&#x22;modal-body&#x22;&#x3E;
+                                        &#x3C;p&#x3E;modal text here...&#x3C;/p&#x3E;
+                                    &#x3C;/div&#x3E;
+                                    &#x3C;div class=&#x22;modal-stacked-bottom&#x22;&#x3E;
+                                        &#x3C;button class=&#x22;modal-btn&#x22;&#x3E;ACTION 1&#x3C;/button&#x3E;
+                                        &#x3C;button class=&#x22;modal-btn&#x22;&#x3E;ACTION 2&#x3C;/button&#x3E;
+                                    &#x3C;/div&#x3E;
+                                &#x3C;/div&#x3E;
+                                </code>
+                            </pre>
+                            <footer class="docs-footer">
+                                <div class="footer-left">
+                                    <a href="../navigation/navigation.html" class="btn">
+                                        <i class="fas fa-chevron-left"></i>  Navigation
+                                    </a>
+                                </div>
+                                <div class="footer-right">
+                                    <a href="../rating/rating.html" class="btn">
+                                      Rating <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>
