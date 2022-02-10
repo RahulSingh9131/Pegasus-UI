@@ -1,0 +1,39 @@
+/* === css for grids === */
+
+/* == two items in a grid == */
+
+.grid-container{
+    width: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, minmax(27rem, 1fr));
+}
+.grid-child{
+    background-color: var(--simple);
+    border-radius: .7rem;
+    padding: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--container-color);
+    min-height: 10rem;
+}
+
+/* == three items in a grid */
+.grid-three-container{
+    width: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, minmax(5rem, 1fr));
+}
+
+
+/* == media queries for grids == */
+@media (max-width: 870px){
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .child{
+        padding: 1rem;
+    }
+}
