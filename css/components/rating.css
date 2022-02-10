@@ -1,0 +1,33 @@
+/* === css for rating component */
+
+.rating-container{
+    color: var(--secondary);
+    font-size: var(--big-font-size);
+    font-weight: var(--font-bold);
+}
+.rating-container input{
+    display: none;
+}
+.rating-container label{
+    cursor: pointer;
+    text-shadow: 1px 1px 0 var(--text-color);
+}
+.rating-container input:checked + label ~ label{
+    color: var(--body-color);
+}
+.rating-container label:active{
+    transform: scale(0.5);
+    transition: 0.3s ease;
+}
+
+/* css for numbered rating */
+.number-rating-container{
+    background-color: var(--secondary);
+    border-radius: .2rem;
+    padding: .2rem .5rem;
+    color: var(--container-color);
+}
+.number-rating-container span{
+    padding: 0rem .2rem;
+    border-right: .1rem solid var(--container-color);
+}
