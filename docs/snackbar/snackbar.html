@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.4.0/styles/monokai-sublime.css" />
+    <title>Snackbar</title>
+</head>
+<body>
+    <main>
+        <div class="docs-wrapper">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <img src="../../assets/brand-logo.svg" alt="Logo">
+                        <h3>Pegasus</h3>
+                    </div>
+                    <div class="links">
+                        <ul>
+                           <li><a href="https://github.com/RahulSingh9131" target="blank">Github</a></li>
+                           <li><a href="https://twitter.com/singhrahul3112" target="blank">Twitter</a></li>
+                           <li><a href="#">Blog</a></li>
+                           <li><a href="#" class="btn" target="blank">Docs</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </header>
+            <div class="docs-area">
+                <div class="container">
+                    <div class="docs-container">
+                        <div class="left">
+                            <h3 class="left-heading">Get Started</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Introduction</a></li>
+                                <li><a href="#" class="docs-link">Typography</a></li>
+                                <li><a href="#" class="docs-link">Conclusion</a></li>
+                            </ul>
+                            <h3 class="left-heading">Components</h3>
+                            <ul>
+                                <li><a href="#" class="docs-link">Alert</a></li>
+                                <li><a href="#" class="docs-link">Button</a></li>
+                                <li><a href="#" class="docs-link">Avatar</a></li>
+                                <li><a href="#" class="docs-link">Badge</a></li>
+                                <li><a href="#" class="docs-link">Card</a></li>
+                                <li><a href="#" class="docs-link">Input</a></li>
+                                <li><a href="#" class="docs-link">Image</a></li>
+                                <li><a href="#" class="docs-link">Text-Utilities</a></li>
+                                <li><a href="#" class="docs-link">Lists</a></li>
+                                <li><a href="#" class="docs-link">Navigation</a></li>
+                                <li><a href="#" class="docs-link">Modal</a></li>
+                                <li><a href="#" class="docs-link">Rating</a></li>
+                                <li><a href="#" class="docs-link">Snackbar</a></li>
+                                <li><a href="#" class="docs-link">Simplified Grid</a></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                           <h1 class="right-heading">Snackbar</h1>
+                           <p class="left-text">
+                               A Snackbar is a message used to give users feedback after taking an action.
+                               They are ephemeral and time out after a few seconds. Use Snackbars when you
+                               need a quick, lightweight way of providing feedback following an action they've taken.
+                           </p>
+
+                           <!-- snackbar -->
+                           <h2 class="right-sub-heading">Normal Snackbar</h2>
+                           <p class="left-text">
+                               Below is an example of a normal snackbar,which can be created using paricular classes.
+                           </p>
+                           <div class="component-container">
+                                <div class="snackbar-container">
+                                  <div class="left-side">
+                                    <p>can't send a photo.Try again in 5 sec.</p>
+                                  </div>
+                                  <div class="right-side">
+                                    <button class="snack-btn">RETRY</button>
+                                    <i class="fas fa-times"></i>
+                                  </div>
+                                </div>
+                            </div>
+                           <pre>
+                               <code class="code-snippet">
+                            &#x3C;div class=&#x22;snackbar-container&#x22;&#x3E;
+                                &#x3C;div class=&#x22;left-side&#x22;&#x3E;
+                                  &#x3C;p&#x3E;can&#x27;t send a photo.Try again in 5 sec.&#x3C;/p&#x3E;
+                                &#x3C;/div&#x3E;
+                                &#x3C;div class=&#x22;right-side&#x22;&#x3E;
+                                  &#x3C;button class=&#x22;snack-btn&#x22;&#x3E;RETRY&#x3C;/button&#x3E;
+                                  &#x3C;i class=&#x22;fas fa-times&#x22;&#x3E;&#x3C;/i&#x3E;
+                                &#x3C;/div&#x3E;
+                            &#x3C;/div&#x3E;
+                               </code>
+                           </pre>
+
+                           <!-- stacked snackbar -->
+                           <h2 class="right-sub-heading">Stacked Snackbar</h2>
+                           <p class="left-text">Stacked snackbar has content stacked over each other.</p>
+                           <div class="component-container">
+                              <div class="snackbar-container stacked-container">
+                                <div class="left-side">
+                                  <p>This item has already been labeled.Add a new label</p>
+                                </div>
+                                <div class="right-side">
+                                  <button class="snack-btn">ADD A NEW LABEL</button>
+                                  <i class="fas fa-times"></i>
+                                </div>
+                              </div>
+                            </div>
+                            <pre>
+                                <code class="code-snippet">
+                                &#x3C;div class=&#x22;snackbar-container stacked-container&#x22;&#x3E;
+                                    &#x3C;div class=&#x22;left-side&#x22;&#x3E;
+                                      &#x3C;p&#x3E;This item has already been labeled.Add a new label&#x3C;/p&#x3E;
+                                    &#x3C;/div&#x3E;
+                                    &#x3C;div class=&#x22;right-side&#x22;&#x3E;
+                                      &#x3C;button class=&#x22;snack-btn&#x22;&#x3E;ADD A NEW LABEL&#x3C;/button&#x3E;
+                                      &#x3C;i class=&#x22;fas fa-times&#x22;&#x3E;&#x3C;/i&#x3E;
+                                    &#x3C;/div&#x3E;
+                                &#x3C;/div&#x3E;
+                                </code>
+                            </pre>
+                            <div class="docs-footer">
+                                <div class="footer-left">
+                                    <a href="../rating/rating.html" class="btn">
+                                        <i class="fas fa-chevron-left"></i> Ratings
+                                    </a>
+                                </div>
+                                <div class="footer-right">
+                                    <a href="../grid/grid.html" class="btn">
+                                      Grids <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>
