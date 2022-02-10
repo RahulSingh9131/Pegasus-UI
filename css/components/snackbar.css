@@ -27,7 +27,7 @@
     cursor: pointer;
     outline: none;
     font-size: 1rem;
-    color: var(--primary-dark);
+    color: var(--simple);
     background-color: var(--text-color);
     margin: 0rem  .7rem;
 }
