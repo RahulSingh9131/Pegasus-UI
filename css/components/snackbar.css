@@ -1,0 +1,43 @@
+/* === css for snackbar component */
+
+/* ==css for normal snackbar== */
+
+.snackbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .7rem 1rem;
+    border-radius: .3rem;
+    color: var(--container-color);
+    background-color: var(--text-color);
+}
+.left-side{
+    font-size: var(--small-font-size);
+}
+.right-side{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.right-side>i{
+    cursor: pointer;
+}
+.snack-btn{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    color: var(--primary-dark);
+    background-color: var(--text-color);
+    margin: 0rem  .7rem;
+}
+
+/* == css for stacked snackbar== */
+.stacked-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.stacked-container > .left-side{
+    margin-bottom: var(--mb-1);
+}
