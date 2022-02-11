@@ -166,6 +166,13 @@ header .container{
     justify-content: space-between;
 }
 
+/* == css for contribution page === */
+.contribute{
+    display: inline-block;
+    color: var(--accent);
+    text-decoration: underline;
+    margin-bottom: var(--mb-3);
+}
 
 
 
@@ -207,5 +214,8 @@ header .container{
     .docs-container> .left{
         display: none;
     }
-    
+    .right > .contribute{
+        display: inline-block;
+        margin-bottom: var(--mb-3);
+    }
 }
